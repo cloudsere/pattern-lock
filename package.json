@@ -1,0 +1,19 @@
+{
+  "name": "pattern-lock",
+  "version": "1.0.0",
+  "description": "a javascript pattern lock plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pattern-lock"
+  ],
+  "author": "lesley",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-uglify": "^2.2.0"
+  }
+}

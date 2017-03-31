@@ -1,0 +1,80 @@
+/*
+* @Author: heqingqiu
+* @Date:   2017-03-26 09:57:13
+* @Last Modified by:   cloudseer
+* @Last Modified time: 2017-03-29 21:57:49
+*/
+html,body{
+	font-family: arial;
+	height:100%;
+	background-color:#f0f0f2;
+	background-image: linear-gradient(45deg, #ababab 10%, transparent 10%, transparent 100%, #ababab 100%, #ababab),
+    linear-gradient(45deg, #ababab 10%, transparent 10%, transparent 100%, #ababab 100%, #ababab);
+	background-size:20px 20px;
+}
+body{
+	margin:0;
+}
+header{
+	font-size:10px;
+	position:fixed;
+	width:100%;
+	text-align:center;
+	background-color:#f8f8f8;
+	border-bottom:1px outset #f8f8f8;
+}
+.container{
+	position:relative;
+	height:100%;
+	width:100%;
+}
+
+.password{
+	margin: auto;
+	position: absolute;
+	top: -25%; left: 0; bottom: 0; right: 0;
+	height:220px;
+	width:220px;
+	display:flex;
+	-webkit-flex-wrap:wrap;
+	flex-wrap:wrap;
+	-webkit-flex-direction:row;
+	flex-direction:row;
+	overflow:visible;
+	z-index:999;
+}
+#myCanvas{
+	width:100%;
+	height:100%;
+}
+.passwordCircle{
+	min-width:50px;
+	width:50px;
+	height:50px;
+	margin:10px;
+	border-radius:50%;
+	border:1px solid #000000;
+	background-color:#ffffff;
+}
+.activeCircle{
+	background-color:#ff9f00;
+	border:1px solid #f25666;
+}
+.activeTwice{
+	background-color:#f25666;
+}
+.tooltip{
+	text-align:center;
+	position:absolute;
+	top:calc(40% + 110px);
+	width:100%;
+	font-size:20px;
+}
+.option{
+	text-align:center;
+	position:absolute;
+	top:calc(50% + 110px);
+	width:100%;
+}
+
+
