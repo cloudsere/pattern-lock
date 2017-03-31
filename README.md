@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## JavaScript实现手势移动端手机解锁
 
 ```
@@ -127,3 +128,7 @@ passCircleEl = document.getElementsByClassName('passwordCircle');
 这一次的任务让我接触了以前不太用的```touch```事件，感觉很有收获。因为很担心浏览器兼容的问题，所以在真机上测试了多次，意外学会在局域网里用手机浏览器访问本地的localhost，和图书馆的AP隔离搏斗很久最后还是用了手机热点什么的...
 
 从在广州开的CSS大会上见到波波老师，就对360的前端团队充满好奇了，虽然还是萌新，也希望自己能有机会哈！
+=======
+# pattern-lock
+A JavaScript written pattern-lock for mobile and PC.
+>>>>>>> 7ceacb4d09ce51b089e6402d6ed68bf42d0f1787
